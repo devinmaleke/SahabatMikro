@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E83B3CB2BCD036A8EFE789D /* Pods_Test_Sahabat_Mikro_Fintek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10DD8E0803E5052602570B9 /* Pods_Test_Sahabat_Mikro_Fintek.framework */; };
+		16DE23652C2296E9005E3BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23642C2296E9005E3BF1 /* AppDelegate.swift */; };
+		16DE23672C2296E9005E3BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23662C2296E9005E3BF1 /* SceneDelegate.swift */; };
+		16DE23692C2296E9005E3BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23682C2296E9005E3BF1 /* ViewController.swift */; };
+		16DE236C2C2296E9005E3BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DE236A2C2296E9005E3BF1 /* Main.storyboard */; };
+		16DE236E2C2296EB005E3BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DE236D2C2296EB005E3BF1 /* Assets.xcassets */; };
+		16DE23712C2296EB005E3BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DE236F2C2296EB005E3BF1 /* LaunchScreen.storyboard */; };
+		16DE237C2C229824005E3BF1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE237B2C229824005E3BF1 /* DataModel.swift */; };
+		16DE237F2C229905005E3BF1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE237E2C229905005E3BF1 /* NetworkService.swift */; };
+		16DE23812C229A24005E3BF1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23802C229A24005E3BF1 /* ErrorResponse.swift */; };
+		16DE23832C229A60005E3BF1 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23822C229A60005E3BF1 /* DataViewModel.swift */; };
+		16DE23862C229F15005E3BF1 /* LoanListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23842C229F15005E3BF1 /* LoanListVC.swift */; };
+		16DE23872C229F15005E3BF1 /* LoanListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23852C229F15005E3BF1 /* LoanListVC.xib */; };
+		16DE238A2C22A059005E3BF1 /* LoanListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23882C22A059005E3BF1 /* LoanListTVC.swift */; };
+		16DE238B2C22A059005E3BF1 /* LoanListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23892C22A059005E3BF1 /* LoanListTVC.xib */; };
+		16DE23902C22AE08005E3BF1 /* DetailBorrowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE238E2C22AE08005E3BF1 /* DetailBorrowerVC.swift */; };
+		16DE23912C22AE08005E3BF1 /* DetailBorrowerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE238F2C22AE08005E3BF1 /* DetailBorrowerVC.xib */; };
+		16DE23952C22B82A005E3BF1 /* RepaymentScheduleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23932C22B82A005E3BF1 /* RepaymentScheduleTVC.swift */; };
+		16DE23962C22B82A005E3BF1 /* RepaymentScheduleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23942C22B82A005E3BF1 /* RepaymentScheduleTVC.xib */; };
+		16DE23992C22CAAB005E3BF1 /* DocumentTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE23972C22CAAB005E3BF1 /* DocumentTVC.swift */; };
+		16DE239A2C22CAAB005E3BF1 /* DocumentTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23982C22CAAB005E3BF1 /* DocumentTVC.xib */; };
+		16DE239C2C22CDC8005E3BF1 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE239B2C22CDC8005E3BF1 /* GlobalVariable.swift */; };
+		16DE23A02C22DE69005E3BF1 /* TapImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE239E2C22DE69005E3BF1 /* TapImageVC.swift */; };
+		16DE23A12C22DE69005E3BF1 /* TapImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DE239F2C22DE69005E3BF1 /* TapImageVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DE23612C2296E9005E3BF1 /* Test Sahabat Mikro Fintek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Sahabat Mikro Fintek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DE23642C2296E9005E3BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16DE23662C2296E9005E3BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16DE23682C2296E9005E3BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16DE236B2C2296E9005E3BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16DE236D2C2296EB005E3BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16DE23702C2296EB005E3BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16DE23722C2296EB005E3BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DE237B2C229824005E3BF1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		16DE237E2C229905005E3BF1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		16DE23802C229A24005E3BF1 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		16DE23822C229A60005E3BF1 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		16DE23842C229F15005E3BF1 /* LoanListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListVC.swift; sourceTree = "<group>"; };
+		16DE23852C229F15005E3BF1 /* LoanListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanListVC.xib; sourceTree = "<group>"; };
+		16DE23882C22A059005E3BF1 /* LoanListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListTVC.swift; sourceTree = "<group>"; };
+		16DE23892C22A059005E3BF1 /* LoanListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanListTVC.xib; sourceTree = "<group>"; };
+		16DE238E2C22AE08005E3BF1 /* DetailBorrowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBorrowerVC.swift; sourceTree = "<group>"; };
+		16DE238F2C22AE08005E3BF1 /* DetailBorrowerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailBorrowerVC.xib; sourceTree = "<group>"; };
+		16DE23932C22B82A005E3BF1 /* RepaymentScheduleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepaymentScheduleTVC.swift; sourceTree = "<group>"; };
+		16DE23942C22B82A005E3BF1 /* RepaymentScheduleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepaymentScheduleTVC.xib; sourceTree = "<group>"; };
+		16DE23972C22CAAB005E3BF1 /* DocumentTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTVC.swift; sourceTree = "<group>"; };
+		16DE23982C22CAAB005E3BF1 /* DocumentTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentTVC.xib; sourceTree = "<group>"; };
+		16DE239B2C22CDC8005E3BF1 /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		16DE239E2C22DE69005E3BF1 /* TapImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapImageVC.swift; sourceTree = "<group>"; };
+		16DE239F2C22DE69005E3BF1 /* TapImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapImageVC.xib; sourceTree = "<group>"; };
+		65D6576D7481BF5964906578 /* Pods-Test Sahabat Mikro Fintek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Sahabat Mikro Fintek.release.xcconfig"; path = "Target Support Files/Pods-Test Sahabat Mikro Fintek/Pods-Test Sahabat Mikro Fintek.release.xcconfig"; sourceTree = "<group>"; };
+		B10DD8E0803E5052602570B9 /* Pods_Test_Sahabat_Mikro_Fintek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Sahabat_Mikro_Fintek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D204BAAA3ADADA5FB49D260F /* Pods-Test Sahabat Mikro Fintek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Sahabat Mikro Fintek.debug.xcconfig"; path = "Target Support Files/Pods-Test Sahabat Mikro Fintek/Pods-Test Sahabat Mikro Fintek.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DE235E2C2296E9005E3BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E83B3CB2BCD036A8EFE789D /* Pods_Test_Sahabat_Mikro_Fintek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DE23582C2296E9005E3BF1 = {
+			isa = PBXGroup;
+			children = (
+				16DE23632C2296E9005E3BF1 /* Test Sahabat Mikro Fintek */,
+				16DE23622C2296E9005E3BF1 /* Products */,
+				8956B68216E268139ED86C08 /* Pods */,
+				B31FBF063C06A62E5D632371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16DE23622C2296E9005E3BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16DE23612C2296E9005E3BF1 /* Test Sahabat Mikro Fintek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16DE23632C2296E9005E3BF1 /* Test Sahabat Mikro Fintek */ = {
+			isa = PBXGroup;
+			children = (
+				16DE237D2C2298EC005E3BF1 /* Network Service */,
+				16DE237A2C22974A005E3BF1 /* View */,
+				16DE23792C229745005E3BF1 /* View Model */,
+				16DE23782C229741005E3BF1 /* Model */,
+				16DE23642C2296E9005E3BF1 /* AppDelegate.swift */,
+				16DE23662C2296E9005E3BF1 /* SceneDelegate.swift */,
+				16DE23682C2296E9005E3BF1 /* ViewController.swift */,
+				16DE236A2C2296E9005E3BF1 /* Main.storyboard */,
+				16DE236D2C2296EB005E3BF1 /* Assets.xcassets */,
+				16DE236F2C2296EB005E3BF1 /* LaunchScreen.storyboard */,
+				16DE23722C2296EB005E3BF1 /* Info.plist */,
+			);
+			path = "Test Sahabat Mikro Fintek";
+			sourceTree = "<group>";
+		};
+		16DE23782C229741005E3BF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16DE237B2C229824005E3BF1 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16DE23792C229745005E3BF1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				16DE23822C229A60005E3BF1 /* DataViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		16DE237A2C22974A005E3BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16DE239D2C22DE48005E3BF1 /* Other */,
+				16DE238C2C22ADCB005E3BF1 /* Loan List */,
+				16DE238D2C22ADD9005E3BF1 /* Detail Borrower */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16DE237D2C2298EC005E3BF1 /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				16DE237E2C229905005E3BF1 /* NetworkService.swift */,
+				16DE23802C229A24005E3BF1 /* ErrorResponse.swift */,
+				16DE239B2C22CDC8005E3BF1 /* GlobalVariable.swift */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		16DE238C2C22ADCB005E3BF1 /* Loan List */ = {
+			isa = PBXGroup;
+			children = (
+				16DE23842C229F15005E3BF1 /* LoanListVC.swift */,
+				16DE23852C229F15005E3BF1 /* LoanListVC.xib */,
+				16DE23882C22A059005E3BF1 /* LoanListTVC.swift */,
+				16DE23892C22A059005E3BF1 /* LoanListTVC.xib */,
+			);
+			path = "Loan List";
+			sourceTree = "<group>";
+		};
+		16DE238D2C22ADD9005E3BF1 /* Detail Borrower */ = {
+			isa = PBXGroup;
+			children = (
+				16DE238E2C22AE08005E3BF1 /* DetailBorrowerVC.swift */,
+				16DE238F2C22AE08005E3BF1 /* DetailBorrowerVC.xib */,
+				16DE23932C22B82A005E3BF1 /* RepaymentScheduleTVC.swift */,
+				16DE23942C22B82A005E3BF1 /* RepaymentScheduleTVC.xib */,
+				16DE23972C22CAAB005E3BF1 /* DocumentTVC.swift */,
+				16DE23982C22CAAB005E3BF1 /* DocumentTVC.xib */,
+			);
+			path = "Detail Borrower";
+			sourceTree = "<group>";
+		};
+		16DE239D2C22DE48005E3BF1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				16DE239E2C22DE69005E3BF1 /* TapImageVC.swift */,
+				16DE239F2C22DE69005E3BF1 /* TapImageVC.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8956B68216E268139ED86C08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D204BAAA3ADADA5FB49D260F /* Pods-Test Sahabat Mikro Fintek.debug.xcconfig */,
+				65D6576D7481BF5964906578 /* Pods-Test Sahabat Mikro Fintek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B31FBF063C06A62E5D632371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10DD8E0803E5052602570B9 /* Pods_Test_Sahabat_Mikro_Fintek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DE23602C2296E9005E3BF1 /* Test Sahabat Mikro Fintek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DE23752C2296EB005E3BF1 /* Build configuration list for PBXNativeTarget "Test Sahabat Mikro Fintek" */;
+			buildPhases = (
+				3AE6D59AD15762F52E23CD66 /* [CP] Check Pods Manifest.lock */,
+				16DE235D2C2296E9005E3BF1 /* Sources */,
+				16DE235E2C2296E9005E3BF1 /* Frameworks */,
+				16DE235F2C2296E9005E3BF1 /* Resources */,
+				3241866B60489E1D491F3954 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Sahabat Mikro Fintek";
+			productName = "Test Sahabat Mikro Fintek";
+			productReference = 16DE23612C2296E9005E3BF1 /* Test Sahabat Mikro Fintek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16DE23592C2296E9005E3BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					16DE23602C2296E9005E3BF1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 16DE235C2C2296E9005E3BF1 /* Build configuration list for PBXProject "Test Sahabat Mikro Fintek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16DE23582C2296E9005E3BF1;
+			productRefGroup = 16DE23622C2296E9005E3BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DE23602C2296E9005E3BF1 /* Test Sahabat Mikro Fintek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DE235F2C2296E9005E3BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE23712C2296EB005E3BF1 /* LaunchScreen.storyboard in Resources */,
+				16DE23962C22B82A005E3BF1 /* RepaymentScheduleTVC.xib in Resources */,
+				16DE236E2C2296EB005E3BF1 /* Assets.xcassets in Resources */,
+				16DE238B2C22A059005E3BF1 /* LoanListTVC.xib in Resources */,
+				16DE239A2C22CAAB005E3BF1 /* DocumentTVC.xib in Resources */,
+				16DE23A12C22DE69005E3BF1 /* TapImageVC.xib in Resources */,
+				16DE23872C229F15005E3BF1 /* LoanListVC.xib in Resources */,
+				16DE236C2C2296E9005E3BF1 /* Main.storyboard in Resources */,
+				16DE23912C22AE08005E3BF1 /* DetailBorrowerVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3241866B60489E1D491F3954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Sahabat Mikro Fintek/Pods-Test Sahabat Mikro Fintek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Sahabat Mikro Fintek/Pods-Test Sahabat Mikro Fintek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Sahabat Mikro Fintek/Pods-Test Sahabat Mikro Fintek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE6D59AD15762F52E23CD66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Sahabat Mikro Fintek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DE235D2C2296E9005E3BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DE237F2C229905005E3BF1 /* NetworkService.swift in Sources */,
+				16DE23692C2296E9005E3BF1 /* ViewController.swift in Sources */,
+				16DE23862C229F15005E3BF1 /* LoanListVC.swift in Sources */,
+				16DE23902C22AE08005E3BF1 /* DetailBorrowerVC.swift in Sources */,
+				16DE23A02C22DE69005E3BF1 /* TapImageVC.swift in Sources */,
+				16DE237C2C229824005E3BF1 /* DataModel.swift in Sources */,
+				16DE23812C229A24005E3BF1 /* ErrorResponse.swift in Sources */,
+				16DE23652C2296E9005E3BF1 /* AppDelegate.swift in Sources */,
+				16DE238A2C22A059005E3BF1 /* LoanListTVC.swift in Sources */,
+				16DE23992C22CAAB005E3BF1 /* DocumentTVC.swift in Sources */,
+				16DE23952C22B82A005E3BF1 /* RepaymentScheduleTVC.swift in Sources */,
+				16DE23832C229A60005E3BF1 /* DataViewModel.swift in Sources */,
+				16DE239C2C22CDC8005E3BF1 /* GlobalVariable.swift in Sources */,
+				16DE23672C2296E9005E3BF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16DE236A2C2296E9005E3BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DE236B2C2296E9005E3BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16DE236F2C2296EB005E3BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DE23702C2296EB005E3BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16DE23732C2296EB005E3BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16DE23742C2296EB005E3BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16DE23762C2296EB005E3BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D204BAAA3ADADA5FB49D260F /* Pods-Test Sahabat Mikro Fintek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A353S377CB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Sahabat Mikro Fintek/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devin.Test-Sahabat-Mikro-Fintek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16DE23772C2296EB005E3BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D6576D7481BF5964906578 /* Pods-Test Sahabat Mikro Fintek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A353S377CB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Sahabat Mikro Fintek/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devin.Test-Sahabat-Mikro-Fintek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16DE235C2C2296E9005E3BF1 /* Build configuration list for PBXProject "Test Sahabat Mikro Fintek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DE23732C2296EB005E3BF1 /* Debug */,
+				16DE23742C2296EB005E3BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DE23752C2296EB005E3BF1 /* Build configuration list for PBXNativeTarget "Test Sahabat Mikro Fintek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DE23762C2296EB005E3BF1 /* Debug */,
+				16DE23772C2296EB005E3BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16DE23592C2296E9005E3BF1 /* Project object */;
+}

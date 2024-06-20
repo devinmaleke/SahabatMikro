@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="176" id="KGk-i7-Jjw" customClass="LoanListTVC" customModule="Test_Sahabat_Mikro_Fintek" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="176"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGt-M5-Cka">
+                        <rect key="frame" x="16" y="16" width="344" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UZ-Bb-0xe">
+                        <rect key="frame" x="16" y="41" width="344" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interest Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRW-Em-LSA">
+                        <rect key="frame" x="16" y="66" width="344" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGC-Ml-Wbc">
+                        <rect key="frame" x="16" y="91" width="344" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Purpose" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6To-d9-Ydi">
+                        <rect key="frame" x="16" y="116" width="344" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOh-hz-9FT">
+                        <rect key="frame" x="310.33333333333331" y="69.666666666666671" width="49.666666666666686" height="37"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Risk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5T1-ce-xW1">
+                                <rect key="frame" x="10.000000000000002" y="10" width="29.666666666666671" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5T1-ce-xW1" secondAttribute="bottom" constant="10" id="0Yr-4g-K7w"/>
+                            <constraint firstItem="5T1-ce-xW1" firstAttribute="leading" secondItem="aOh-hz-9FT" secondAttribute="leading" constant="10" id="ePW-SA-RG0"/>
+                            <constraint firstItem="5T1-ce-xW1" firstAttribute="top" secondItem="aOh-hz-9FT" secondAttribute="top" constant="10" id="ps3-oo-G72"/>
+                            <constraint firstAttribute="trailing" secondItem="5T1-ce-xW1" secondAttribute="trailing" constant="10" id="tqL-9g-GIQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="aOh-hz-9FT" secondAttribute="trailing" constant="16" id="9CE-Ko-44t"/>
+                    <constraint firstItem="7UZ-Bb-0xe" firstAttribute="top" secondItem="SGt-M5-Cka" secondAttribute="bottom" constant="8" id="9Eq-7M-yJe"/>
+                    <constraint firstAttribute="trailing" secondItem="jGC-Ml-Wbc" secondAttribute="trailing" constant="16" id="Et5-uK-TQf"/>
+                    <constraint firstItem="aOh-hz-9FT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FE3-OL-NLw"/>
+                    <constraint firstItem="6To-d9-Ydi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Fyf-Om-req"/>
+                    <constraint firstAttribute="trailing" secondItem="6To-d9-Ydi" secondAttribute="trailing" constant="16" id="Lw1-ow-MZY"/>
+                    <constraint firstItem="jGC-Ml-Wbc" firstAttribute="top" secondItem="fRW-Em-LSA" secondAttribute="bottom" constant="8" id="MVZ-ev-5nV"/>
+                    <constraint firstItem="7UZ-Bb-0xe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Sa3-of-rIn"/>
+                    <constraint firstItem="fRW-Em-LSA" firstAttribute="top" secondItem="7UZ-Bb-0xe" secondAttribute="bottom" constant="8" id="VFN-kK-h3u"/>
+                    <constraint firstItem="6To-d9-Ydi" firstAttribute="top" secondItem="jGC-Ml-Wbc" secondAttribute="bottom" constant="8" id="fKR-gl-TdY"/>
+                    <constraint firstItem="SGt-M5-Cka" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="gGs-zS-lgs"/>
+                    <constraint firstAttribute="trailing" secondItem="SGt-M5-Cka" secondAttribute="trailing" constant="16" id="heG-OW-d2e"/>
+                    <constraint firstAttribute="trailing" secondItem="7UZ-Bb-0xe" secondAttribute="trailing" constant="16" id="lAw-Aw-jRO"/>
+                    <constraint firstAttribute="bottom" secondItem="6To-d9-Ydi" secondAttribute="bottom" constant="16" id="lab-7a-71x"/>
+                    <constraint firstAttribute="trailing" secondItem="fRW-Em-LSA" secondAttribute="trailing" constant="16" id="rEC-or-UpK"/>
+                    <constraint firstItem="fRW-Em-LSA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="tLj-C5-MbU"/>
+                    <constraint firstItem="jGC-Ml-Wbc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="xDN-ZG-iHj"/>
+                    <constraint firstItem="SGt-M5-Cka" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="yo1-Cz-bRe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgRisk" destination="aOh-hz-9FT" id="SVO-68-CR4"/>
+                <outlet property="interestRateLabel" destination="fRW-Em-LSA" id="Xpc-tB-Irr"/>
+                <outlet property="loanAmountLabel" destination="7UZ-Bb-0xe" id="U6w-Nf-51E"/>
+                <outlet property="nameLabel" destination="SGt-M5-Cka" id="xfH-hg-HCR"/>
+                <outlet property="purposeLabel" destination="6To-d9-Ydi" id="VwN-wS-2Wi"/>
+                <outlet property="riskLabel" destination="5T1-ce-xW1" id="DHX-Wb-vsH"/>
+                <outlet property="termsLabel" destination="jGC-Ml-Wbc" id="Wkr-ez-a94"/>
+            </connections>
+            <point key="canvasLocation" x="160.30534351145039" y="64.788732394366207"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

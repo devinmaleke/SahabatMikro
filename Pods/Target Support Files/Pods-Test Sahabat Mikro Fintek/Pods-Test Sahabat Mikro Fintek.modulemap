@@ -1,0 +1,6 @@
+framework module Pods_Test_Sahabat_Mikro_Fintek {
+  umbrella header "Pods-Test Sahabat Mikro Fintek-umbrella.h"
+
+  export *
+  module * { export * }
+}
