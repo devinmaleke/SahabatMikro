@@ -12,14 +12,14 @@ In this page, user can sort list base on alphabetic name. By click the sort butt
 
 
 
-User also can searc list based on name.
+User also can search list based on name.
 
 <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/11a15a96-919f-4e41-8171-51268a45df4c">
 
 
 
 
-- Detail List page
+- Detail Borrower Page
 
 
   <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/50687487-7d27-46ec-9d21-83257a1cbca0">
