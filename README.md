@@ -6,7 +6,7 @@ This App Divided into 2 views (pages)
 <img width="337" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/ec2d6031-88b9-4899-b273-6757e3ae35c0">
 
 
-In this page, user can sort list base on alphabetic name. By click the sort button.
+In this page, user can sort list based on alphabetic name. By click the sort button.
 
 <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/72d71e6a-8cd6-4a03-89cf-27be35735cec">
 
@@ -22,7 +22,7 @@ User also can search list based on name.
 - Detail Borrower Page
 
 
-  <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/50687487-7d27-46ec-9d21-83257a1cbca0">
+<img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/50687487-7d27-46ec-9d21-83257a1cbca0">
 
 
 To view the document image, user can click the image. It will show user the preview image.
