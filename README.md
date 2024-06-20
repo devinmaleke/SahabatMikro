@@ -1,12 +1,12 @@
 **Loan Management App**
 
-This App Divided into 2 views (pages)
+This app divided into 2 views (pages)
 
 - Loan List Page
 <img width="337" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/ec2d6031-88b9-4899-b273-6757e3ae35c0">
 
 
-In this page, user can sort list based on alphabetic name. By click the sort button.
+In this page, user can sort list based on alphabetic name by click the sort button.
 
 <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/72d71e6a-8cd6-4a03-89cf-27be35735cec">
 
