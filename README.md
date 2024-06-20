@@ -30,6 +30,8 @@ To view the document image, user can click the image. It will show user the prev
 <img width="335" alt="image" src="https://github.com/devinmaleke/SahabatMikro/assets/110164254/795c198f-e5fe-44fa-91e8-3cc82db22f25">
 
 
+
+
 **How to Run the App**
 
 
